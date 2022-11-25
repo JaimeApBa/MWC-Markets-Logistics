@@ -12,9 +12,6 @@ import { PortadaComponent } from './components/portada/portada.component';
 import { CentroComponent } from './components/centro/centro.component';
 import { HttpClientModule } from '@angular/common/http';
 
-import { NgChartsModule } from 'ng2-charts';
-
-
 @NgModule({
   declarations: [
     AppComponent,
@@ -29,8 +26,7 @@ import { NgChartsModule } from 'ng2-charts';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule,
-    NgChartsModule
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
