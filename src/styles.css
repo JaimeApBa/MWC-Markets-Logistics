@@ -119,6 +119,21 @@ section{
 .big {
     font-size: 2em;
 }
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card {
+    max-width: 33%;
+    border: 1px solid;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+
 .img-fluid {
   width: 100%;
   margin: auto;
