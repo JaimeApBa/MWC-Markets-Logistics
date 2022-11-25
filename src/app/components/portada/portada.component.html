@@ -1,26 +1,30 @@
-<style>
-
-  .portada {
-    height: 100vh;
-    position: relative;
-    background: linear-gradient(#f9505e 0%, #3023cd 49%, #01001f 100%);
-  }
-
-  .centervertical {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-  }
-
-  .img-fluid{
-    width: 100%;
-    margin: auto;
-  }
-
-</style>
 <div class="portada">
+  <div class="header">
+    <div class="top-nav">
+      <div class="blacktext">LOGISTICS</div>
+      <input id="menu-toggle" type="checkbox" />
+      <label class='menu-button-container' for="menu-toggle">
+        <div class='menu-button'></div>
+      </label>
+      <ul class="menu">
+        <li><a href="#info">INFORMATION</a></li>
+        <li><a href="#top-products">TOP PRODUCTS</a></li>
+        <li><a href="#sales-week">SALES WEEK</a></li>
+        <li><a href="#benefit">BENEFIT</a></li>
+        <li><a href="#predicted">PREDICTED SALES</a></li>
+
+      </ul>
+    </div>
+  </div>
   <div class="centervertical">´
     <img class="img-fluid" src="./assets/logo-mwc.png">
+    <select class="text-center big">
+        <option value="">Select a Center</option>
+      <option value="1" href="#info">Center 1</option>
+      <option value="2">Center 2</option>
+      <option value="3">Center 3</option>
+      <option value="all">All centers</option>
+    </select>
+
   </div>
 </div>

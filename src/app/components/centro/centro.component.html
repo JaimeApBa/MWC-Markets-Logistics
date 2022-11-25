@@ -1,29 +1,31 @@
 <!-- Display all center information -->
-<div class="black"></div>
+<section id = info>
+    <div class="container">
+        <div class="base">
 
-<div class="container" id="info">
-    <div class="main-title">
-        <h1>MWC MARKETS</h1>
-    </div>
+        <div class="main-title">
+            <h1>MWC MARKETS</h1>
+        </div>
 
-    <div class="center-info">
-        <div class="center-title">
-            <h2>Hola</h2>
-            <p>8929359</p>
+        <div class="center-info">
+            <div class="center-title">
+                <h2>Center {{center.center_id}}</h2>
+                <p>TYPE {{center.center_type}}</p>
+            </div>
+            <div class="details">
+                <p>City code: {{center.city_code}}</p>
+                <p>Region code: {{center.region_code}}</p>
+                <p>Operation area: {{center.op_area}}</p>
+            </div>
+            <div class="top-products">
+                <h3>Top products</h3>
+                <ol>
+                    <li>1. Product 1</li>
+                    <li>2. Product 2</li>
+                    <li>3. Product 3</li>
+                </ol>
+            </div>
         </div>
-        <div class="details">
-                <p>City code: </p>
-                <p>Region code: 394</p>
-                <p>Center type: 92390</p>
-                <p>Operation area: 923</p>
-        </div>
-        <div class="top-products">
-            <h3>Top products</h3>
-            <ol>
-                <li>1. Product 1</li>
-                <li>2. Product 2</li>
-                <li>3. Product 3</li>
-            </ol>
         </div>
     </div>
-</div>
+</section>

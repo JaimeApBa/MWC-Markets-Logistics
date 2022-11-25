@@ -19,19 +19,17 @@ export class CentersService {
   ) { }
 
 getCenters() {
-  /*
-    const url = '';
-    return this.http.get(url)
-            .pipe(
-              map((resp => {
-                console.log(resp);
+  // const url = '';
+  //   return this.http.get(url)
+  //           .pipe(
+  //             map((resp => {
+  //               console.log(resp);
                 
-              }),
-              catchError((err: any) => {
-                return throwError(() => new Error(err));
-              }))
-            )  */
-            return centers;
+  //             }),
+  //             catchError((err: any) => {
+  //               return throwError(() => new Error(err));
+  //             }))
+  //           )  
+  return centers;
 }
-
 }
