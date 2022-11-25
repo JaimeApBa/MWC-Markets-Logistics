@@ -20,7 +20,7 @@ li a {
 
 .container {
   padding: 20px;
-  background-color: #040234;
+  /* background-color: #040234; */
 
 }
 
@@ -100,16 +100,25 @@ body {
 .portada {
   height: 100vh;
   position: relative;
-  background: linear-gradient(#f9505e 0%, #3023cd 49%, #01001f 100%);
+  background: linear-gradient(#f9505e 0%, #3023cd 49%, #040234 100%);
 }
 
+section{
+    border: 1px solid #fff;
+    min-height: 50vh;
+    background-color: #040234;
+
+}
 .centervertical {
   position: absolute;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+  text-align: center;
 }
-
+.big {
+    font-size: 2em;
+}
 .img-fluid {
   width: 100%;
   margin: auto;
