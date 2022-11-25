@@ -10,6 +10,7 @@ import { BenefitWeekComponent } from './components/benefit-week/benefit-week.com
 import { PredictedSalesComponent } from './components/predicted-sales/predicted-sales.component';
 import { PortadaComponent } from './components/portada/portada.component';
 import { CentroComponent } from './components/centro/centro.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { CentroComponent } from './components/centro/centro.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
