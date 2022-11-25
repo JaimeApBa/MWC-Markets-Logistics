@@ -21,7 +21,7 @@ export class CentroComponent implements OnInit{
   }
 
   getCenterByID(id: number) {
-    this.center = this.centers.find((center: any) => center.id === id);
+    this.center = this.centers.find((center: any) => center.center_id === id);
     return this.center;
   }
   
