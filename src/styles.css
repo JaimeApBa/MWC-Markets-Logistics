@@ -24,6 +24,49 @@ li a {
 
 }
 
+.main-title h1{
+    font-size: 5rem;
+    color: #3100FF;
+    opacity: 0.8;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 0.5em !important;
+    margin-bottom: 1em;
+}
+
+.center-info{
+    font-size: 2rem;
+    color: white;
+}
+
+.center-title{
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 2.5em;
+}
+
+.center-title p{
+    font-size: 2rem;
+    color: #3100FF;
+    opacity: 0.8;
+}
+
+.center-info .details{
+    font-weight: lighter;
+    padding-bottom: 1em;
+}
+
+.top-products ol{
+    font-size: 1.8rem;
+    color: #3100FF;
+    opacity: 0.8;
+    font-weight: bold;
+}
+
+.black{
+    background-color: black;
+    height: 16em;
+}
 
 .base {
   max-width: 1080px;
