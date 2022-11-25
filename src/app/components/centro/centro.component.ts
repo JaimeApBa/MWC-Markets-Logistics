@@ -1,3 +1,4 @@
+import { NONE_TYPE } from '@angular/compiler';
 import { Component, OnInit } from '@angular/core';
 import { CentersService } from '../../services/centers.service';
 
@@ -7,12 +8,21 @@ import { CentersService } from '../../services/centers.service';
   styleUrls: ['./centro.component.css']
 })
 export class CentroComponent implements OnInit{
-  
+  centers: any;
+  center: any;
+
   constructor(
     private centroService: CentersService
   ) {}
 
   ngOnInit(): void {
-      this.centroService.getCenters();
+      this.centers = this.centroService.getCenters();
+      this.getCenterByID(11);
   }
+
+  getCenterByID(id: number) {
+    this.center = this.centers.find((center: any) => center.id === id);
+    return this.center;
+  }
+  
 }
